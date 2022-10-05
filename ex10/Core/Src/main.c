@@ -367,7 +367,7 @@ int main(void)
   setTimer0(1000);
   setTimer1(1000);
   setTimer2(250);
-  setTimer3(100);
+  setTimer3(50);
   int shift = 0;
   /* USER CODE END 2 */
 
@@ -408,7 +408,7 @@ int main(void)
 			  if (shift >= 8) shift = 0;
 		  }
 		  updateLEDMatrix1(index_led_matrix++, shift);
-		  setTimer3(100);
+		  setTimer3(50);
 	  }
     /* USER CODE END WHILE */
 
